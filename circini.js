@@ -108,7 +108,7 @@ client.on('interactionCreate', (interaction) => {
             .setDescription(`Hello!\n\n
             This is a really barebones bot that allows PK-ish messages to be sent in DMs through embeds and slash commands.\n
             It has to be self-hosted, meaning YOU have to host it yourself, and assume the responsibility for doing so.\n
-            To set it up, see the github here:\n
+            To set it up, see the github here: https://github.com/northperseids/circinibot\n
             Once you've got the bot running, run the /resetsys command to clear and initialize your system profile, then run /add to add your first system member. You'll need to input name, avatar *(HAS TO BE A URL)*, and proxy, with an optional color field which determines the color of the little bar to the left of the embeds.\n
             There's no hard limit set into the code for the max number of system members, so it's up to you to manage that.\n
             Once you're done adding system members, run the /register command and it'll register the commands for you. You may need to refresh Discord's page for the proxy commands to show up.\n
