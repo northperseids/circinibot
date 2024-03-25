@@ -268,7 +268,7 @@ client.on('interactionCreate', (interaction) => {
             },
             {
                 name: `delete`,
-                description: `Deletes a system member. Cannot be used in DMs.`,
+                description: `Deletes a system member.`,
                 integration_types: [0, 1],
                 contexts: [0, 1, 2],
                 options: [
