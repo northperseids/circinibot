@@ -243,7 +243,7 @@ client.on('interactionCreate', (interaction) => {
             let echo = interaction.options.get('input').value;
             let embed = new EmbedBuilder()
                 .setColor(color)
-                .setTitle(echo)
+                .setDescription(echo)
                 .setAuthor({ name: name, iconURL: avatar })
             interaction.reply({ embeds: [embed] })
         }
