@@ -2,11 +2,11 @@
 ![Image showing two embedded proxies in conversation](/image.png)<br><br>
 Small and simple bot to allow a version of semi-proxying in Discord DMs.<br><br>
 I made this in a day because I was bored. It's a utility intended to be of a Pluralkit-esque nature that allows semi-proxying in DMs through the use of embeds. It takes up a chunk of visual space in the chat, but it's the best I could do with no webhooks available in DMs.<br><br>
-This will *NOT* be a continually-updated project. Like I said, I made it in a day because I was bored. If you look at the code, it's a mess and probably needs to be split up into multiple files, but I can't really be bothered for that right now.
+This will not be a regularly-updated project, but I might come back to it on occasion. Like I said, I made it in a day because I was bored.
 
 # Usage
 The bot can only be configured for one system profile at a time. (Again, made it in a day! please don't be irritated with the limitations!) Management can be done entirely through Discord (ideally), though.<br>
-Also, please note that the maximum members possible in a system (currently) is 41 (Discord allows 50 slash commands per bot, and 9 of those are taken up by utility functions).
+Also, please note that the maximum members possible in a system (currently) is 41 (Discord allows 50 slash commands per bot, and 9 of those are taken up by utility functions). I might try to figure out a way to use subcommands to allow more, but - well, haven't done that yet.
 ### Commands
 /resetsys - clear and set up a system<br>
 /add - add a member<br>
