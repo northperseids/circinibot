@@ -6,6 +6,7 @@ This will *NOT* be a continually-updated project. Like I said, I made it in a da
 
 # Usage
 The bot can only be configured for one system profile at a time. (Again, made it in a day! please don't be irritated with the limitations!) Management can be done entirely through Discord (ideally), though.<br>
+Also, please note that the maximum members possible in a system (currently) is 41 (Discord allows 50 slash commands per bot, and 9 of those are taken up by utility functions).
 ### Commands
 /resetsys - clear and set up a system<br>
 /add - add a member<br>
