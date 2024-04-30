@@ -2,7 +2,7 @@
 ![Image showing two embedded proxies in conversation](/image.png)<br><br>
 Small and simple bot to allow a version of semi-proxying in Discord DMs.<br><br>
 I made this in a day because I was bored. It's a utility intended to be of a Pluralkit-esque nature that allows semi-proxying in DMs through the use of embeds. It takes up a chunk of visual space in the chat, but it's the best I could do with no webhooks available in DMs.<br><br>
-This will *NOT* be a continually-updated project. Like I said, I made it in a day because I was bored. If you look at the code, it's a mess and probably needs to be split up into multiple files, but I can't really be bothered for that right now. If it bothers you, I guess you can make the changes yourself, I certainly don't have an issue with that.
+This will *NOT* be a continually-updated project. Like I said, I made it in a day because I was bored. If you look at the code, it's a mess and probably needs to be split up into multiple files, but I can't really be bothered for that right now.
 
 # Usage
 The bot can only be configured for one system profile at a time. (Again, made it in a day! please don't be irritated with the limitations!) Management can be done entirely through Discord (ideally), though.<br>
@@ -18,7 +18,7 @@ The bot can only be configured for one system profile at a time. (Again, made it
 /register - registers new proxy commands<br>
 
 ### Self-hosting
-This bot is *STRONGLY RECOMMENDED* to be run LOCALLY. If you're new to self-hosting a Discord bot, there's a lot of resources and videos available on how to get started.
+This bot has to be self-hosted. If you're new to self-hosting a Discord bot, there's a lot of resources and videos available on how to get started.
 
 To run through it quickly -
 * download NodeJS from the NodeJS website
@@ -28,7 +28,7 @@ To run through it quickly -
 
 ...and you should be good to go - from there, just run the circini.js file using `node circini.js` (or use something like pm2 if you want to keep the bot up in the background - I've been using pm2 to keep my bots running).
 
-*Note that in order to use it in DMs you'll need to enable "user installs" in the Discord developer portal and install/authorize the bot on your account, not on a server. Also, please note that if you allow other people to authorize your bot and/or invite the bot to a server, EVERYONE IN THE SERVER and/or EVERYONE WHO AUTHORIZES THE BOT will be able to send messages with your proxies!!! This is intended for use in DMs only!!*
+*Note that in order to use it in DMs you'll need to enable "user installs" in the Discord developer portal and install/authorize the bot on your account, not on a server. Also, please note that if you allow other people to authorize your bot, EVERYONE WHO AUTHORIZES THE BOT will be able to send messages with your proxies!!!*
 
 If you get stuck, there's plenty of decent videos and etc. showing how to get a bot up and running!
 
