@@ -34,4 +34,4 @@ To run through it quickly -
 If you get stuck, there's plenty of decent videos and etc. showing how to get a bot up and running!
 
 # Support/Contact
-Yeah... this bot isn't going to have a lot of support. If you're running into issues, you can contact me on Discord, but *no* guarantees I'll be available or able to help.
+If you're running into issues *with the bot, not with HOSTING the bot,* you can contact me on Discord @neartsua, but *no* guarantees I'll be available or able to help.
