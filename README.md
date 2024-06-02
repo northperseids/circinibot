@@ -21,15 +21,7 @@ Also, please note that the maximum members possible in a system (currently) is 4
 ### Self-hosting
 This bot has to be self-hosted. If you're new to self-hosting a Discord bot, there's a lot of resources and videos available on how to get started.
 
-To run through it quickly -
-* download NodeJS from the NodeJS website
-* download the bot files and put the bot files somewhere you'll remember
-* edit the example.env file and put your own bot token and bot ID in for the TOKEN and CLIENT_ID variables (be sure to rename the `example.env` to just `.env`)
-* open the bot folder in your terminal and run `npm install`<br>
-
-...and you should be good to go - from there, just run the circini.js file using `node circini.js` (or use something like pm2 if you want to keep the bot up in the background - I've been using pm2 to keep my bots running).
-
-*Note that in order to use it in DMs you'll need to enable "user installs" in the Discord developer portal and install/authorize the bot on your account, not on a server. Also, please note that if you allow other people to authorize your bot, EVERYONE WHO AUTHORIZES THE BOT will be able to send messages with your proxies!!!*
+*Note that in order to use it in DMs you'll need to enable "user installs" in the Discord developer portal and install/authorize the bot on your ACCOUNT, not on a server. Also, please note that if you allow other people to authorize your bot, EVERYONE WHO AUTHORIZES THE BOT will be able to access your system and send messages with your proxies!!!*
 
 If you get stuck, there's plenty of decent videos and etc. showing how to get a bot up and running!
 
